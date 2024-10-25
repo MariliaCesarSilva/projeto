@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estética e Bem-Estar</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #6c63ff;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 15px 0;
+        }
+        nav a {
+            color: black;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        .servicos, .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .servicos div, .galeria img {
+            background: white;
+            margin: 10px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            text-align: center;
+        }
+        footer {
+            background: #333;
+            color: rgb(91, 38, 172);
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Você precisa de Estetica</h1>
+    <nav>
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Exemplos dos procedimentos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Bem-vindo ao nosso site de Estética e Bem-Estar! Aqui, oferecemos uma variedade de serviços para cuidar da sua beleza e saúde. Nossa equipe é especializada e está pronta para proporcionar a melhor experiência.</p>
+    </section>
+
+    <section id="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="servicos">
+            <div>
+                <h3>Botox</h3>
+                <p>Tratamento completo para manter a pele saudável e radiante e sem rugas.</p>
+            </div>
+            <div>
+                <h3>harmonização fácial</h3>
+                <p>resultando na melhoria da qualidade da pele e de suas proporções e simetrias.</p>
+            </div>
+            <div>
+                <h3>Maquiagem Profissional</h3>
+                <p>Transforme-se com nossos serviços de maquiagem para qualquer ocasião.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <div class="galeria">
+            <img src="https://injectors.com.br/wp-content/uploads/2019/01/aplicacao-de-botox-e-aplicacao-de-toxina-sao-paulo.png" width="300"/>
+            <img src="https://www.fashionbubbles.com/wp-content/uploads/2021/11/harmonizacao-facial-duvidas.jpg"/>
+            <img src="imagem3.jpg" alt="Tratamento estético 3" width="300">
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Para mais informações, entre em contato conosco pelo e-mail: contato@estetica.com.br</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2023 Estética e Bem-Estar. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
